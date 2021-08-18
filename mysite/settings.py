@@ -80,12 +80,12 @@ DATABASES = {
         'NAME': 'yukif_db_pa',  # データベース名
         'USER': 'yukif9729',  # ユーザ名
         'PASSWORD': 'takaf9729',  # pass word
-        'HOST': 'localhost',  # MariaDBがあるサーバのIPアドレスやホストを。空欄はローカルホスト
+        'HOST': 'mysql.server',  # MariaDBがあるサーバのIPアドレスやホストを。空欄はローカルホスト
         'PORT': '3306',  # 空欄はデフォルトポートの3306
     }
 }
 
-
+'mysql.server'
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
