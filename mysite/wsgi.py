@@ -8,6 +8,11 @@ https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
 """
 
 import os
+import sys
+
+path = '/home/yukif9729/djangogirls/mysite'
+if path not in sys.path:
+    sys.path.append(path)
 
 from django.core.wsgi import get_wsgi_application
 
