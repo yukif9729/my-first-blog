@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'yukif_db_pa',  # データベース名
         'USER': 'yukif9729',  # ユーザ名
         'PASSWORD': 'takaf9729',  # pass word
-        'HOST': 'mysql.server',  # MariaDBがあるサーバのIPアドレスやホストを。空欄はローカルホスト
+        'HOST': 'localhost',  # MariaDBがあるサーバのIPアドレスやホストを。空欄はローカルホスト
         'PORT': '3306',  # 空欄はデフォルトポートの3306
     }
 }
