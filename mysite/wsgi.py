@@ -13,16 +13,18 @@ import sys
 path = '/home/yukif9729/djangogirls'
 
 if path not in sys.path:
-    sys.path.append(path)
+    sys.path.insert(0,path)
 """
 sys.path.insert(0, path)
+"""
+
 """
 # os.chdir(path)
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 """
 os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
-"""
-import django
+
+#import django
 # django.setup()
 #
 ## then:
