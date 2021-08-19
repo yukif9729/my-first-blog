@@ -23,7 +23,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
 """
 import django
-django.setup()
+# django.setup()
 #
 ## then:
 
