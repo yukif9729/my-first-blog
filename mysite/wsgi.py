@@ -17,7 +17,7 @@ if path not in sys.path:
 """
 sys.path.insert(0, path)
 """
-os.chdir(path)
+# os.chdir(path)
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 """
 os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
