@@ -11,16 +11,21 @@ import os
 import sys
 
 path = '/home/yukif9729/yukif9729.pythonanywhere.com'
-"""
+
 if path not in sys.path:
     sys.path.append(path)
 """
 sys.path.insert(0, path)
-
+"""
+os.chdir(path)
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 """
 os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
 """
+import django
+django.setup()
+#
+## then:
 
 from django.core.wsgi import get_wsgi_application
 
