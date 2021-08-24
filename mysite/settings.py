@@ -126,7 +126,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') #add 20210816
-ALLOWED_HOSTS = ['127.0.0.1', 'yukif9729.pythonanywhere.com'] #add 20210816
+#ALLOWED_HOSTS = ['127.0.0.1', 'yukif9729.pythonanywhere.com'] #add 20210816
 
 
 # Default primary key field type
